@@ -35,7 +35,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgW-Un-fhY">
-                                <rect key="frame" x="172" y="180" width="30" height="30"/>
+                                <rect key="frame" x="172" y="180" width="31" height="30"/>
                                 <state key="normal" title="GO"/>
                                 <connections>
                                     <segue destination="m1n-KA-bSb" kind="show" id="7q2-0c-10N"/>
@@ -44,7 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="hgW-Un-fhY" secondAttribute="trailing" constant="157" id="38E-Kx-Bo9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hgW-Un-fhY" secondAttribute="trailing" constant="156" id="38E-Kx-Bo9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hgW-Un-fhY" secondAttribute="bottom" constant="457" id="6hi-CP-4Gb"/>
                             <constraint firstItem="F3s-p1-9qv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="76" id="MCD-1o-hBb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8n9-R7-Rrj" secondAttribute="trailing" constant="123" id="UXo-h9-Goh"/>
@@ -77,14 +77,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wb-ZQ-liP">
-                                <rect key="frame" x="167" y="179.5" width="40" height="30.5"/>
+                                <rect key="frame" x="167" y="179.5" width="41" height="30.5"/>
                                 <state key="normal" title="BACK"/>
                                 <connections>
                                     <segue destination="AFl-nw-HWL" kind="unwind" unwindAction="unwind:" id="clk-XZ-hpM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KY7-U3-WCb" userLabel="result_label">
-                                <rect key="frame" x="12" y="50" width="350" height="20.5"/>
+                                <rect key="frame" x="12" y="50" width="351" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -96,8 +96,8 @@
                             <constraint firstItem="2wb-ZQ-liP" firstAttribute="leading" secondItem="pxq-rP-ggI" secondAttribute="leadingMargin" constant="151" id="HhU-PI-Jp3"/>
                             <constraint firstItem="2wb-ZQ-liP" firstAttribute="top" secondItem="KY7-U3-WCb" secondAttribute="bottom" constant="109" id="IAp-wv-8qW"/>
                             <constraint firstItem="KY7-U3-WCb" firstAttribute="top" secondItem="d4a-YQ-GYk" secondAttribute="bottom" constant="30" id="QeA-GP-eKG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2wb-ZQ-liP" secondAttribute="trailing" constant="152" id="SdD-5b-btB"/>
-                            <constraint firstAttribute="trailing" secondItem="KY7-U3-WCb" secondAttribute="trailing" constant="13" id="X6x-Fb-D81"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2wb-ZQ-liP" secondAttribute="trailing" constant="151" id="SdD-5b-btB"/>
+                            <constraint firstAttribute="trailing" secondItem="KY7-U3-WCb" secondAttribute="trailing" constant="12" id="X6x-Fb-D81"/>
                             <constraint firstItem="0EW-Uw-eTz" firstAttribute="top" secondItem="2wb-ZQ-liP" secondAttribute="bottom" constant="457" id="qIm-wX-gBH"/>
                         </constraints>
                     </view>
